@@ -18,7 +18,7 @@ import javax.persistence.Table ;
 import java.util.Date ;
 
 @Entity
-@Table("ProjectInfo")
+@Table(name="ProjectInfo")
 public class ProjectInfo {
     @Id
     @Column(name="PROJECTID")
